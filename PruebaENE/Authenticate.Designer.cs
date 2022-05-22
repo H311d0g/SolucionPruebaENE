@@ -104,6 +104,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Authenticate";
             this.Text = "ENE";
+            this.Load += new System.EventHandler(this.Authenticate_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

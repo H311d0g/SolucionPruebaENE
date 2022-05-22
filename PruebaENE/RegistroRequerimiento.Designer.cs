@@ -49,7 +49,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(233, 9);
+            this.label1.Location = new System.Drawing.Point(168, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(225, 27);
             this.label1.TabIndex = 0;
@@ -71,7 +71,7 @@
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(235, 127);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(208, 16);
+            this.label3.Size = new System.Drawing.Size(183, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "(Base de Datos, Sistemas, Servidores)";
             // 
@@ -91,7 +91,7 @@
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(202, 202);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(335, 16);
+            this.label5.Size = new System.Drawing.Size(296, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "(Este usuario será el responsable de resolver el requerimiento)";
             // 
@@ -121,7 +121,7 @@
             this.label8.Font = new System.Drawing.Font("Arial Narrow", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(211, 389);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(101, 16);
+            this.label8.Size = new System.Drawing.Size(90, 16);
             this.label8.TabIndex = 7;
             this.label8.Text = "(Alta, Media, Baja)";
             // 
@@ -165,6 +165,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(28, 415);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(128, 35);
@@ -174,21 +175,24 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(192, 416);
+            this.button2.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(205, 415);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 35);
             this.button2.TabIndex = 13;
-            this.button2.Text = "button2";
+            this.button2.Text = "Limpiar Campos";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
+            this.button3.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(377, 416);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(135, 35);
+            this.button3.Size = new System.Drawing.Size(193, 35);
             this.button3.TabIndex = 14;
-            this.button3.Text = "button3";
+            this.button3.Text = "Ir a Listar Requerimientos";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // RegistroRequerimiento
             // 

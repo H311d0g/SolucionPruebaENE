@@ -39,5 +39,10 @@ namespace PruebaENE
                 }
             }
         }
+
+        private void Authenticate_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

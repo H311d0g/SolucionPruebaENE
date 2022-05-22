@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace PruebaENE
 {
-    public partial class RegistroRequerimiento : Form
+    public partial class ListarRequerimiento : Form
     {
-        public RegistroRequerimiento()
+        public ListarRequerimiento()
         {
             InitializeComponent();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            ListarRequerimiento form = new ListarRequerimiento();
-            form.ShowDialog();
-            this.Close();
         }
     }
 }
